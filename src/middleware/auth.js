@@ -14,7 +14,7 @@ export const security=async(req,res,next)=>{
 
        if (!user) {
             return res.status(404).json({
-                message: "User not found",user
+                message: "User not found",
             });
         }
         next();
