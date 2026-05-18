@@ -29,10 +29,6 @@ const token = jwt.sign(
 
 )
 
-app.get("/login", (req, res) => {
-    res.send("jai balayya this is login page");
-
-});
 
 app.post("/register", async (req, res) => {
     try {
